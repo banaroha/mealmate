@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 
 /* ═══════════════════════════════════════════════════
    TRANSLATIONS
@@ -1283,7 +1283,7 @@ export default function MealMate() {
         </div>
       </div>
 
-      <RecipeModal/>
+      {/* <RecipeModal/> */}
 
       <p style={{ marginTop:14, color:"#b0a090", fontSize:11, textAlign:"center" }}>
         MealMate v5 · Filipino & Asian · ₱ PHP
